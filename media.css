@@ -1,5 +1,47 @@
 /*  Media query for header */
 
 @media screen and (max-width: 700px){
-    
+    .text-box h1{
+        font-size: 20px;
+    }
+
+    .text-box p{
+        font-size: 14px;
+    }
+
+    .hero-btn{
+        padding: 8px 16px;
+        font-size: 13px;
+    }
+
+    .nav-links ul li{
+        display: block;
+    }
+
+    .nav-links ul li a{
+        color: gray;
+    }
+
+    .nav-links{
+        position: absolute;
+        top: 0px;
+        right: -320px; /* -200px*/
+        background: black;
+        height: 100vh;
+        width: 320px; /* -200px*/
+        text-align: left;
+        z-index: 2;
+        transition: all 0.4s;
+    }
+
+    .icons{
+        display: block;
+        margin: 30px 20px 40px;
+        cursor: pointer;
+    }
+
+    .nav-links ul{
+        padding: 20px 0 0 40px;
+        text-align: left;
+    }
 }

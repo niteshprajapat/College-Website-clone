@@ -6,6 +6,15 @@
     box-sizing: border-box;
 }
 
+.icons{
+    width: 15px;
+    display: none;
+}
+
+.icons1{
+    filter: invert(70%);
+}
+
 body{
     font-family: 'Poppins', sans-serif;
 }
@@ -105,5 +114,7 @@ nav img{
     border: 1px solid black;
     border-radius: 1px;
 }
+
+
 
 
