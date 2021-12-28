@@ -115,6 +115,60 @@ nav img{
     border-radius: 1px;
 }
 
+/* Section 1 : Courses */
+.course{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.course h1{
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.course p{
+    font-size: 14px;
+    font-weight: 500;
+    word-spacing: 2px;
+    line-height: 20px;
+    padding: 10px;
+}
 
 
+.row{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.course-col{
+    flex-basis: 31%;
+    padding: 10px 15px;
+    margin-bottom: 5%;
+    background: rgb(196, 191, 191);
+    border-radius: 10px;
+    box-sizing: border-box;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.course-col:hover{
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.4);
+    margin-top: -10px; 
+
+}
+
+.course-col h3{
+    text-align: center;
+    font-size: 17px;
+    margin: 8px 0;
+    word-spacing: 2px;
+}
+
+.course-col p{
+    line-height: 20px;
+}
 
