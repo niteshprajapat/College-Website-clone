@@ -82,6 +82,28 @@ nav img{
     font-weight: 500;
     margin-top: 10px;
     margin-bottom: 40px;
+    color: rgb(32, 31, 31);
+}
+
+.hero-btn{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    border: 1px solid black;
+    padding: 10px 20px;
+    border-radius: 1px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+
+.hero-btn:hover{
+    background: black;
+    color: gray;
+    border: 1px solid black;
+    border-radius: 1px;
 }
 
 
