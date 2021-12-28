@@ -17,7 +17,10 @@
         <nav>
             <a href="#"><img src="./img/logo1.png"></a>
 
-            <div class="nav-links">
+            <div class="nav-links" id="navLinks">
+
+                <img class="icons1 icons" onclick="hideMenu()" src="./img/close.png" alt="">
+
                 <ul>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">Blog</a></li>
@@ -26,6 +29,9 @@
                     <li><a href="#">Services</a></li>
                 </ul>
             </div>
+
+            <img class="icons2 icons" onclick="showMenu()" src="./img/menu.png" alt="">
+
         </nav>
 
         <div class="text-box">
@@ -35,5 +41,10 @@
             <a href="" class="hero-btn">Visit us to know More</a>
         </div>
     </header>
+
+
+
+
+    <script src="./app.js"></script>
 </body>
 </html>
