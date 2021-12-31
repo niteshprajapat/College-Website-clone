@@ -172,10 +172,10 @@ nav img{
 }
 
 
-/* Section 2: Campus */
+/* Section 2: campus */
 .campus{
     width: 80%;
-    width: auto;
+    margin: auto;
     text-align: center;
     padding-top: 70px;
 }
@@ -193,15 +193,17 @@ nav img{
     padding: 10px;
 }
 
-
-
 .campus-col{
-    width: 80%;
-    flex-basis: 32%;
+    flex-basis: 31%;
     border-radius: 10px;
     margin-bottom: 5%;
     position: relative;
     overflow: hidden;
+    transition: all 0.4s;
+}
+
+.campus-col:hover{
+    margin-top: -20px;
 }
 
 .campus-col img{
@@ -217,8 +219,32 @@ nav img{
     top: 0;
     left: 0;
     transition: all 0.4s;
+    cursor: pointer;
 }
 
 .layer:hover{
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.layer h3{
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.5s;
+}
+
+.layer:hover h3{
+    bottom: 49%;
+    opacity: 1;
+}
+
+
+@media screen and (max-width:700px) {
+    .campus-col:hover{
+        margin-top: 0px;
+    }
 }
