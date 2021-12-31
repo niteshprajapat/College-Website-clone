@@ -243,8 +243,3 @@ nav img{
 }
 
 
-@media screen and (max-width:700px) {
-    .campus-col:hover{
-        margin-top: 0px;
-    }
-}
